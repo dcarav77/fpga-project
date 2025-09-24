@@ -1,0 +1,9 @@
+build/
+*.vcd
+*.vvp
+*.log
+*.jou
+*.str
+.DS_Store
+.vscode/
+*.hex
