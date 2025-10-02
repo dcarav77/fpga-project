@@ -1,3 +1,3 @@
-[submodule "third_party/picorv32"]
-	path = third_party/picorv32
+[submodule "ip/cores/riscv/picorv32"]
+	path = ip/cores/riscv/picorv32
 	url = https://github.com/YosysHQ/picorv32.git
