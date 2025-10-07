@@ -1,9 +1,59 @@
-build/
-*.vcd
-*.vvp
-*.log
-*.jou
-*.str
+# ---- OS & editors
 .DS_Store
 .vscode/
+*.swp
+*.swo
+
+# ---- General build dirs
+build/
+dist/
+out/
+tmp/
+*.log
+
+# ---- Icarus / Verilator sims
+*.vvp
+*.vcd
+testbench.vcd
+testbench.trace
+testbench_verilator
+testbench_verilator_dir/
+
+# ---- PicoRV32 firmware artifacts
+firmware/firmware.elf
+firmware/firmware.bin
+firmware/firmware.hex
+firmware/firmware.map
+
+# ---- Yosys / formal / synth
+synth.v
+synth.log
+check.smt2
+check.vcd
+
+# ---- Vivado (project-generated)
+*.jou
+*.str
+*.wdb
+*.ltx
+*.dcp
+*.rpt
+*.log
+*.cache/
+*.srcs/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.Xil/
+*.xsa
+*.xsa.zip
+
+# Bitstreams & images (keep if you want releases elsewhere)
+*.bit
+*.bin
+*.mcs
+
+# ---- Other common junk
 *.hex
+*.tar.gz
