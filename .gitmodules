@@ -1,3 +1,0 @@
-[submodule "ip/cores/riscv/picorv32"]
-	path = ip/cores/riscv/picorv32
-	url = https://github.com/YosysHQ/picorv32.git
